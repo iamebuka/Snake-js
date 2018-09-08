@@ -1,7 +1,8 @@
 # Snake js
 
-This is my javascript implementation of the popular snake game usually asked during code review interviews. You are also free to 
-add a user interface to this implementation
+This is my javascript implementation of the popular snake game. The most important part of the algorithm is the code that handles the movement of the snake, implemented in the ***move*** method. First the snake was implemented as a list(Queue) of cordinates, and the movement is practically poping the last item in the list, increasing the coordinate of the popped item by a fixed value depending on the direction and inserting it into the list from the other end. 
+
+You are also free to add a user interface to this implementation
 
 # code snippet
 
